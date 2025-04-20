@@ -30,4 +30,5 @@ if __name__ == '__main__':
     s = input("Enter Time in 12 Hour Format: ")
 
     result = timeConversion(s)
+    a=result
     print(result)
