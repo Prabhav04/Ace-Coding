@@ -15,14 +15,13 @@ import sys
 #
 
 def lonelyinteger(a):
-    t = 0
+    s = 0
     for i in a:
         if a.count(i) == 1:
-            t = i
+            s = i
             break
 
-    return t
-
+    return s
 
 if __name__ == '__main__':
 
